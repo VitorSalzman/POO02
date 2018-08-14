@@ -10,6 +10,6 @@ package metodo_fabrica;
  * @author 20161bsi0403
  */
 public class Imagem {
-    public String formato;
+    
     
 }
