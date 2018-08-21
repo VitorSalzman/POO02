@@ -29,5 +29,8 @@ public class Visualizacao {
         this.hora = hora;
     }
     
-    
+    public String toString() {
+		System.out.println("gera Cliente");
+		return null;
+	} 
 }

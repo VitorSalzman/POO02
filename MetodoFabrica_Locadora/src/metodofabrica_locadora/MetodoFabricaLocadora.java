@@ -15,7 +15,28 @@ public class MetodoFabricaLocadora {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+		Object formato;
+        formato = FabricaLocadora.gerarFormato("Cliente");
+        formato.toString();
+        
+        formato = FabricaLocadora.gerarFormato("Avaliação");
+        formato.toString();
+
+        formato = FabricaLocadora.gerarFormato("Locação");
+        formato.toString();
+        
+        formato = FabricaLocadora.gerarFormato("Filme");
+        formato.toString();
+        
+        formato = FabricaLocadora.gerarFormato("Visualização");
+        formato.toString();
+        
+        formato = FabricaLocadora.gerarFormato("ItemLocado");
+        formato.toString();
+	}
+        
+        
     }
     
-}
+
