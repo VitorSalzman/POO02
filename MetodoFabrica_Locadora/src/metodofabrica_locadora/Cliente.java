@@ -47,5 +47,8 @@ public class Cliente {
         this.nascimento = nascimento;
     }
     
-    
+    public String toString() {
+		System.out.println("gera Cliente");
+		return null;
+	}
 }

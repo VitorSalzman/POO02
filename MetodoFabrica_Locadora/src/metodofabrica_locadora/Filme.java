@@ -85,5 +85,8 @@ public class Filme {
         this.ehLancamento = ehLancamento;
     }
     
-    
+    public String toString() {
+		System.out.println("gera Filme");
+		return null;
+	}
 }

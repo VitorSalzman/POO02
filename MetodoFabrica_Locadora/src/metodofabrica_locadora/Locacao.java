@@ -29,5 +29,8 @@ public class Locacao {
         this.hora = hora;
     }
     
-    
+    public String toString() {
+		System.out.println("gera Locacao");
+		return null;
+	}
 }

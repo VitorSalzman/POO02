@@ -38,5 +38,8 @@ public class ItemLocado {
         this.instanteParada = instanteParada;
     }
     
-    
+    public String toString() {
+		System.out.println("gera ItemLocado");
+		return null;
+	}
 }

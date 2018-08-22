@@ -29,6 +29,9 @@ public class Avaliacao {
         this.descricao = descricao;
     }
     
-    
+    public String toString() {
+		System.out.println("gera Avaliacao");
+		return null;
+	}
     
 }

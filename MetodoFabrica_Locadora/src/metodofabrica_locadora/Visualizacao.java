@@ -30,7 +30,7 @@ public class Visualizacao {
     }
     
     public String toString() {
-		System.out.println("gera Cliente");
+		System.out.println("gera Visualizacao");
 		return null;
 	} 
 }
