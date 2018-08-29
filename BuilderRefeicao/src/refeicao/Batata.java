@@ -13,10 +13,11 @@ public class Batata {
     private String tamanho;
     private String preparo;
 
-    Batata(String complemento) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Batata(String preparo){  
+        System.out.println("cria batata com preparo:" + preparo);
+        this.setPreparo(preparo);
     }
-
+    
     public String getTamanho() {
         return tamanho;
     }
