@@ -11,4 +11,30 @@ package padrao_flyweight;
  */
 public class Item {
     
+    private String descricao;
+    private String nome;
+    private StatusItem status;
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    void setStatus(StatusItem status){
+        this.status = status;
+    }
+    
+    
+    
 }

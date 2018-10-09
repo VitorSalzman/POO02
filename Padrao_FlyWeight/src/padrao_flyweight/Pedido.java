@@ -5,11 +5,22 @@
  */
 package padrao_flyweight;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author 20161bsi0403
  */
 public class Pedido {
+    private ArrayList<Item> itens;
     
+    public Pedido(){
+        this.itens = new ArrayList<Item>();
+    }
+    public void addItemPedido(Item item){
+        itens.add(item);
+    }
+
+   
     
 }

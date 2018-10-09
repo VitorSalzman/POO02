@@ -9,6 +9,6 @@ package padrao_flyweight;
  *
  * @author 20161bsi0403
  */
-public class Estado {
+public enum Estado {CARRINHO, FECHADO, PAGO, ENVIADO , ENTREGUE}
     
-}
+
