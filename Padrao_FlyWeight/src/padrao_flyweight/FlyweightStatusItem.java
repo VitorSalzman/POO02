@@ -15,6 +15,9 @@ public class FlyweightStatusItem {
     private HashMap<String,StatusItem> cacheStatusItem = new HashMap<>();
     
     public void addStatusitem(StatusItem status){
-        cacheStatusItem.put(status.getEstado(), status);
+        cacheStatusItem.put(status.getEstado().toString(), status);
+    }
+    public StatusItem getStatusItem(Estado estado){
+        return (StatusItem) cacheStatusItem.get(estado);
     }
 }
